@@ -618,7 +618,7 @@ class MusicPlaybackService : MediaBrowserServiceCompat() {
                 Notification.Builder(this, CHANNEL_ID)
             } else {
                 @Suppress("DEPRECATION") Notification.Builder(this)
-            }.setSmallIcon(R.drawable.ic_launcher_logo)
+            }.setSmallIcon(R.drawable.nova_icon)
              .setContentTitle(musicPlayer.state.value.current?.title ?: "LastWave")
              .setContentText(musicPlayer.state.value.current?.artist ?: "Music player")
              .setOnlyAlertOnce(true)

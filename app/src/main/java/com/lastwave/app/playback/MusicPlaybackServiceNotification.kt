@@ -331,7 +331,7 @@ internal fun MusicPlaybackService.buildNotification(state: MusicPlayerState, art
             // so the play action always reads the actual current state.
             val playPauseLabel = if (state.isPlaying) "Pause" else "Play"
             return builder
-                .setSmallIcon(R.drawable.ic_launcher_logo)
+                .setSmallIcon(R.drawable.nova_icon)
                 .setContentTitle(state.current?.title ?: "LastWave")
                 .setContentText(state.current?.artist ?: "Music player")
                 .setSubText(state.current?.album)
@@ -397,7 +397,7 @@ internal fun MusicPlaybackService.buildNotification(state: MusicPlayerState, art
         }
 
         return builder
-            .setSmallIcon(R.drawable.ic_launcher_logo)
+            .setSmallIcon(R.drawable.nova_icon)
             .setContentTitle(state.current?.title ?: "LastWave")
             .setContentText(state.current?.artist ?: "Music player")
             .setSubText(state.current?.album)

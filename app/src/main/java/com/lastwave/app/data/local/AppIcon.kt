@@ -18,7 +18,7 @@ enum class AppIcon(
         titleRes = R.string.app_icon_default,
         subtitleRes = R.string.app_icon_default_sub,
         componentName = "com.lastwave.app.MainActivity",
-        logoRes = R.drawable.ic_launcher_logo,
+        logoRes = R.drawable.nova_icon,
         backgroundRes = R.color.ic_launcher_background,
     ),
     DESKTOP(
@@ -26,7 +26,7 @@ enum class AppIcon(
         titleRes = R.string.app_icon_desktop,
         subtitleRes = R.string.app_icon_desktop_sub,
         componentName = "com.lastwave.app.MainActivityDesktop",
-        logoRes = R.drawable.ic_launcher_logo_desktop,
+        logoRes = R.drawable.nova_icon,
         backgroundRes = R.color.ic_launcher_background_desktop,
     ),
     WHITE(
@@ -34,7 +34,7 @@ enum class AppIcon(
         titleRes = R.string.app_icon_white,
         subtitleRes = R.string.app_icon_white_sub,
         componentName = "com.lastwave.app.MainActivityWhite",
-        logoRes = R.drawable.ic_launcher_logo_white,
+        logoRes = R.drawable.nova_icon,
         backgroundRes = R.color.ic_launcher_background_white,
     ),
     BLACK(
@@ -42,7 +42,7 @@ enum class AppIcon(
         titleRes = R.string.app_icon_black,
         subtitleRes = R.string.app_icon_black_sub,
         componentName = "com.lastwave.app.MainActivityBlack",
-        logoRes = R.drawable.ic_launcher_logo_black,
+        logoRes = R.drawable.nova_icon,
         backgroundRes = R.color.ic_launcher_background_black,
     );
 

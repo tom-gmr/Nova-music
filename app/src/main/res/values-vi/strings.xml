@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">LastWave</string>
+    <string name="app_name">Nova Music</string>
     <string name="widget_name">Trình phát LastWave</string>
     <string name="widget_description">Ảnh bìa, thông tin bài hát và nút điều khiển phát cho mọi ứng dụng nhạc</string>
     <string name="widget_obsidian_name">LastWave Kính Obsidian</string>
