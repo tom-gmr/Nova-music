@@ -586,7 +586,6 @@ internal fun AboutCard(
     versionName: String,
     appIcon: AppIcon = AppIcon.DEFAULT,
 ) {
-    val context = LocalContext.current
     Card(
         shape = CardOuterShape,
         colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceContainerHigh),
@@ -600,15 +599,6 @@ internal fun AboutCard(
                 Modifier
                     .size(72.dp)
                     .clip(CircleShape)
-                    // The launcher icon is an <adaptive-icon> XML on API 26+
-                    // (mipmap-anydpi-v26/ic_launcher_round.xml) — Compose's
-                    // painterResource() can only parse plain bitmap/vector
-                    // drawables, not that root element, and throws the
-                    // instant this composable enters composition. Rebuilding
-                    // the same mark from its two real layers (the lime
-                    // background color + the bars vector, both plain
-                    // resources) reproduces it exactly without touching the
-                    // adaptive icon resource at all.
                     .background(colorResource(appIcon.backgroundRes)),
                 contentAlignment = Alignment.Center,
             ) {
@@ -620,7 +610,11 @@ internal fun AboutCard(
                 )
             }
             Spacer(Modifier.height(14.dp))
-            Text("Nova Music", style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+            Text(
+                "Nova Music",
+                style = MaterialTheme.typography.headlineSmall,
+                fontWeight = FontWeight.Bold,
+            )
             Spacer(Modifier.height(8.dp))
             Surface(
                 shape = ExpressivePillShape,
@@ -634,50 +628,51 @@ internal fun AboutCard(
                     modifier = Modifier.padding(horizontal = 16.dp, vertical = 6.dp),
                 )
             }
-            Spacer(Modifier.height(12.dp))
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                Text(
-                    stringResource(R.string.about_made_by),
-                    style = MaterialTheme.typography.bodySmall,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                    textAlign = TextAlign.Center,
-                )
-                Spacer(Modifier.width(6.dp))
-                Image(
-                    painter = painterResource(R.drawable.ic_flag_india),
-                    contentDescription = "India",
-                )
-            }
-            Spacer(Modifier.height(14.dp))
-            Surface(
-                shape = ExpressivePillShape,
-                color = MaterialTheme.colorScheme.secondaryContainer,
-                onClick = {
-                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/Clash-Projects/LastWave-Desktop"))
-                    if (!startActivitySafely(context, intent)) {
-                        android.widget.Toast.makeText(context, context.getString(R.string.toast_no_browser_plain), android.widget.Toast.LENGTH_SHORT).show()
-                    }
-                },
-            ) {
-                Row(
-                    modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp),
-                    verticalAlignment = Alignment.CenterVertically,
-                ) {
-                    Icon(
-                        imageVector = Icons.Filled.Download,
-                        contentDescription = null,
-                        modifier = Modifier.size(16.dp),
-                        tint = MaterialTheme.colorScheme.onSecondaryContainer,
-                    )
-                    Spacer(Modifier.width(8.dp))
-                    Text(
-                        text = stringResource(R.string.settings_desktop_app),
-                        style = MaterialTheme.typography.labelMedium,
-                        fontWeight = FontWeight.SemiBold,
-                        color = MaterialTheme.colorScheme.onSecondaryContainer,
-                    )
-                }
-            }
+            Spacer(Modifier.height(24.dp))
+            Text(
+                "THE PEOPLE BEHIND NOVA MUSIC",
+                style = MaterialTheme.typography.labelMedium,
+                color = MaterialTheme.colorScheme.primary,
+                fontWeight = FontWeight.Bold,
+            )
+            Spacer(Modifier.height(16.dp))
+            Text(
+                "Original Developer",
+                style = MaterialTheme.typography.titleSmall,
+                fontWeight = FontWeight.SemiBold,
+            )
+            Text(
+                "LastWave Team",
+                style = MaterialTheme.typography.bodyLarge,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            Spacer(Modifier.height(18.dp))
+            Text(
+                "Nova Music Developer",
+                style = MaterialTheme.typography.titleSmall,
+                fontWeight = FontWeight.SemiBold,
+            )
+            Text(
+                "Diwakar Jha",
+                style = MaterialTheme.typography.bodyLarge,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            Text(
+                "@tom-gmr",
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.primary,
+            )
+            Spacer(Modifier.height(22.dp))
+            Text(
+                "Based on LastWave Native",
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            Text(
+                "Open Source License · GPL-3.0",
+                style = MaterialTheme.typography.labelSmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
         }
     }
 }
