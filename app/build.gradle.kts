@@ -512,7 +512,7 @@ dependencies {
     // The renderer factory prefers FFmpeg for every codec it supports so all
     // devices decode through one deterministic, OEM-bug-free path; platform
     // decoders remain as automatic fallbacks.
-    implementation("org.jellyfin.media3:media3-ffmpeg-decoder:1.2.1+1")
+    implementation("org.jellyfin.media3:media3-ffmpeg-decoder:1.9.0+")
 
     // NIO also backports NewPipe's URL encoder/decoder overloads below API 33.
     coreLibraryDesugaring("com.android.tools:desugar_jdk_libs_nio:2.0.4")
