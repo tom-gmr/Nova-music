@@ -91,7 +91,7 @@ jobs:
 
       - name: Upload regression test results
         if: ${{ always() && matrix.variant == 'universal' }}
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: LastWave-v5.2.1-regression-test-results
           path: |
@@ -136,7 +136,7 @@ jobs:
           grep -Fx "sdkVersion:'${EXPECTED_MIN_SDK}'" badging.txt
 
       - name: Upload verified APK
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: LastWave-v5.2.1-${{ matrix.variant }}-verified
           path: final_apk/*.apk
@@ -165,7 +165,7 @@ jobs:
           ls -lh
 
       - name: Upload complete release assets
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: LastWave-v5.2.1-release-assets
           path: final_apk/*
