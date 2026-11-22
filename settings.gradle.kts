@@ -2,7 +2,10 @@ pluginManagement {
     buildscript {
         repositories {
             google()
-            mavenCentral()
+            maven {
+            url = uri("https://maven-central-asia.storage-download.googleapis.com/maven2/")
+        }
+        mavenCentral()
             maven { url = uri("https://storage.googleapis.com/r8-releases/raw") }
         }
         dependencies {
@@ -11,6 +14,9 @@ pluginManagement {
     }
     repositories {
         google()
+        maven {
+            url = uri("https://maven-central-asia.storage-download.googleapis.com/maven2/")
+        }
         mavenCentral()
         gradlePluginPortal()
         maven { url = uri("https://storage.googleapis.com/r8-releases/raw") }
@@ -20,6 +26,9 @@ dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
+        maven {
+            url = uri("https://maven-central-asia.storage-download.googleapis.com/maven2/")
+        }
         mavenCentral()
         maven("https://jitpack.io")
     }
