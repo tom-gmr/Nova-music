@@ -2373,11 +2373,7 @@ fun SettingsScreen(
                     }
 
                     Spacer(Modifier.height(14.dp))
-                            if (!startActivitySafely(context, intent)) {
-                                viewModel.showToast(context.getString(R.string.toast_no_browser_plain))
-                            }
                         }
-                    )
                 }
             }
                     }
@@ -2386,7 +2382,6 @@ fun SettingsScreen(
         }
         }
         }
-    }
     }
 
     // -- Custom color wheel dialog (par 8.4) --
@@ -3385,4 +3380,5 @@ fun SettingsScreen(
             }
         }
     }
+
 }

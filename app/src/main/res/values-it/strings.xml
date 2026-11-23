@@ -816,7 +816,7 @@
     <string name="set_lfm_disc_title">Disconnettere Last.fm?</string>
     <string name="set_lfm_disc_text">Gli scrobble globali si mettono in pausa. Le Statistiche passano alla cronologia locale: non viene eliminato nulla.</string>
     <string name="set_lfm_disc_btn">Disconnetti</string>
-    <string name="set_about_title">LastWave</string>
+    <string name="set_about_title">Nova Music</string>
     <string name="set_color_title">Colore personalizzato</string>
     <string name="set_hue">Tonalità</string>
     <string name="set_sat">Saturazione</string>
@@ -1318,7 +1318,7 @@
     <string name="menu_copy_link">Copia link</string>
     <string name="link_copied">Link copiato negli appunti</string>
     <string name="menu_quick_jam">Jam</string>
-    <string name="settings_jam_title">LastWave Jam</string>
+    <string name="settings_jam_title">Nova Music Jam</string>
     <string name="settings_jam_sub">Ascolto insieme in tempo reale • Crea o entra con un codice</string>
     <string name="playlist_rearrange_songs">Riordina i brani</string>
     <string name="playlist_rearrange_clear_search">Cancella la ricerca per riordinare i brani</string>

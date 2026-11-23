@@ -667,7 +667,7 @@
     <string name="menu_quick_play_next">Reproducir siguiente</string>
     <string name="menu_quick_add_playlist">Agregar a la lista de reproducción</string>
     <string name="menu_quick_jam">Jam</string>
-    <string name="settings_jam_title">LastWave Jam</string>
+    <string name="settings_jam_title">Nova Music Jam</string>
     <string name="settings_jam_sub">Escucha música con otros en tiempo real • Crea una sesión o únete con un código</string>
     <string name="pl_sort_newest">Lo más nuevo primero</string>
     <string name="pl_sort_oldest">El más viejo primero</string>
@@ -968,7 +968,7 @@
     <string name="set_lfm_disc_title">¿Desconectar Last.fm?</string>
     <string name="set_lfm_disc_text">Los scrobbles globales hacen una pausa. Tus estadísticas cambian al historial de escucha local: no se elimina nada.</string>
     <string name="set_lfm_disc_btn">Desconectar</string>
-    <string name="set_about_title">LastWave</string>
+    <string name="set_about_title">Nova Music</string>
     <string name="set_color_title">Color personalizado</string>
     <string name="set_hue">tono</string>
     <string name="set_sat">Saturación</string>

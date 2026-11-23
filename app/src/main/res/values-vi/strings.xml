@@ -621,7 +621,7 @@
     <string name="menu_quick_play_next">Phát tiếp theo</string>
     <string name="menu_quick_add_playlist">Thêm vào danh sách phát</string>
     <string name="menu_quick_jam">Jam</string>
-    <string name="settings_jam_title">LastWave Jam</string>
+    <string name="settings_jam_title">Nova Music Jam</string>
     <string name="settings_jam_sub">Cùng nghe theo thời gian thực \u2022 Tạo phòng hoặc tham gia bằng mã</string>
 
     <!-- Playlists screen -->
@@ -943,7 +943,7 @@
     <string name="set_lfm_disc_title">Ngắt kết nối Last.fm?</string>
     <string name="set_lfm_disc_text">Scrobble toàn cầu sẽ tạm dừng. Thống kê của bạn chuyển sang lịch sử nghe cục bộ — không có gì bị xóa.</string>
     <string name="set_lfm_disc_btn">Ngắt kết nối</string>
-    <string name="set_about_title">LastWave</string>
+    <string name="set_about_title">Nova Music</string>
     <string name="set_color_title">Màu tùy chỉnh</string>
     <string name="set_hue">Sắc độ</string>
     <string name="set_sat">Độ bão hòa</string>

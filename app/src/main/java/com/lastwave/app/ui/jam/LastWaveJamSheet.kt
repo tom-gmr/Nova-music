@@ -169,7 +169,7 @@ fun LastWaveJamSheet(
                         contentAlignment = Alignment.Center,
                     ) {
                         Icon(
-                            painter = painterResource(id = R.drawable.ic_lastwave_logo_mono),
+                            painter = painterResource(id = R.drawable.nova_icon),
                             contentDescription = null,
                             tint = DarkTeal,
                             modifier = Modifier.size(18.dp),
@@ -178,7 +178,7 @@ fun LastWaveJamSheet(
                     Column {
                         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
                             Text(
-                                text = "LastWave Jam",
+                                text = "Nova Music Jam",
                                 style = MaterialTheme.typography.titleMedium,
                                 fontWeight = FontWeight.Bold,
                             )

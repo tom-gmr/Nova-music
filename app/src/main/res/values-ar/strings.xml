@@ -762,7 +762,7 @@
     <string name="set_lfm_disc_title">هل تريد قطع الاتصال بـ Last.fm؟</string>
     <string name="set_lfm_disc_text">توقف الخربشات العالمية. تتحول إحصائياتك إلى سجل الاستماع المحلي - ولا يتم حذف أي شيء.</string>
     <string name="set_lfm_disc_btn">قطع الاتصال</string>
-    <string name="set_about_title">LastWave</string>
+    <string name="set_about_title">Nova Music</string>
     <string name="set_color_title">لون مخصص</string>
     <string name="set_hue">هوى</string>
     <string name="set_sat">التشبع</string>

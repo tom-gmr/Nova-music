@@ -1258,22 +1258,16 @@ private fun JoinSupportDialog(
                 verticalArrangement = Arrangement.spacedBy(12.dp),
             ) {
                 Text(
-                    text = "Created by Diwakar Jha",
+                    text = "Developer: LastWave Team",
                     style = MaterialTheme.typography.titleMedium,
                     fontWeight = FontWeight.SemiBold,
                     color = MaterialTheme.colorScheme.primary,
                 )
                 Text(
-                    text = "Nova Music is a personal project built with passion, creativity, and a love for music.",
-                    style = MaterialTheme.typography.bodyMedium,
-                )
-                Text(
-                    text = "Thank you for installing Nova Music. I hope you enjoy the experience!",
-                    style = MaterialTheme.typography.bodyMedium,
-                )
-                Text(
                     text = "Developer: Diwakar Jha",
-                    style = MaterialTheme.typography.bodySmall,
+                    style = MaterialTheme.typography.titleMedium,
+                    fontWeight = FontWeight.SemiBold,
+                    color = MaterialTheme.colorScheme.primary,
                 )
                 Text(
                     text = "GitHub: @tom-gmr",
@@ -1281,10 +1275,12 @@ private fun JoinSupportDialog(
                     color = MaterialTheme.colorScheme.primary,
                 )
                 Text(
-                    text = "Enjoy the music. Enjoy Nova.",
-                    style = MaterialTheme.typography.labelLarge,
-                    fontWeight = FontWeight.Bold,
-                    color = MaterialTheme.colorScheme.primary,
+                    text = "Based on LastWave Native",
+                    style = MaterialTheme.typography.bodyMedium,
+                )
+                Text(
+                    text = "Open Source License · GPL-3.0",
+                    style = MaterialTheme.typography.bodySmall,
                 )
             }
         },

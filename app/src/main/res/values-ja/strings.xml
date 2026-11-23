@@ -762,7 +762,7 @@
     <string name="set_lfm_disc_title">Last.fm を切断しますか?</string>
     <string name="set_lfm_disc_text">グローバル スクロブルは一時停止します。統計情報はローカルのリスニング履歴に切り替わります。何も削除されません。</string>
     <string name="set_lfm_disc_btn">切断する</string>
-    <string name="set_about_title">LastWave</string>
+    <string name="set_about_title">Nova Music</string>
     <string name="set_color_title">カスタムカラー</string>
     <string name="set_hue">色相</string>
     <string name="set_sat">彩度</string>

@@ -788,13 +788,13 @@ private fun LaunchGate() {
                 modifier = Modifier.size(88.dp),
             ) {
                 androidx.compose.foundation.Image(
-                    painter = painterResource(com.lastwave.app.R.drawable.ic_launcher_foreground),
+                    painter = painterResource(com.lastwave.app.R.drawable.nova_icon),
                     contentDescription = null,
                     modifier = Modifier.fillMaxSize(),
                 )
             }
             Spacer(Modifier.height(18.dp))
-            Text("LastWave", style = MaterialTheme.typography.headlineSmall)
+            Text("Nova Music", style = MaterialTheme.typography.headlineSmall)
             Spacer(Modifier.height(20.dp))
             ExpressiveLoadingIndicator(message = "Preparing your music")
         }

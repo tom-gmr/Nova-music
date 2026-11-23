@@ -762,7 +762,7 @@
     <string name="set_lfm_disc_title">Desconectar Last.fm?</string>
     <string name="set_lfm_disc_text">Pausa global. Suas estatísticas mudam para o histórico de audição local – nada é excluído.</string>
     <string name="set_lfm_disc_btn">Desconectar</string>
-    <string name="set_about_title">LastWave</string>
+    <string name="set_about_title">Nova Music</string>
     <string name="set_color_title">Cor personalizada</string>
     <string name="set_hue">Matiz</string>
     <string name="set_sat">Saturação</string>

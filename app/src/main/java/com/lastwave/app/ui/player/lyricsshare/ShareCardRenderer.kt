@@ -533,7 +533,7 @@ object ShareCardRenderer {
         drawLogoMark(canvas, context, x + (logoSize / 2f), centerY, logoSize, brandColor)
         // Baseline that centres the glyphs on the mark instead of a fixed guess.
         val textY = centerY - (textPaint.ascent() + textPaint.descent()) / 2f
-        canvas.drawText("LastWave", x + logoSize + gap, textY, textPaint)
+        canvas.drawText("Nova Music", x + logoSize + gap, textY, textPaint)
     }
 
     private fun drawLogoMark(
@@ -545,7 +545,7 @@ object ShareCardRenderer {
         tintColor: Int,
     ) {
         val drawable = runCatching {
-            ContextCompat.getDrawable(context, R.drawable.ic_lastwave_logo_mono)
+            ContextCompat.getDrawable(context, R.drawable.nova_icon)
         }.getOrNull() ?: return
         val half = size / 2
         drawable.setBounds((centerX - half).toInt(), (centerY - half).toInt(), (centerX + half).toInt(), (centerY + half).toInt())

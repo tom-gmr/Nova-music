@@ -765,7 +765,7 @@
     <string name="set_lfm_disc_title">断开Last.fm？</string>
     <string name="set_lfm_disc_text">全球乱序暂停。您的统计信息切换到本地收听历史记录 - 没有删除任何内容。</string>
     <string name="set_lfm_disc_btn">断开连接</string>
-    <string name="set_about_title">LastWave</string>
+    <string name="set_about_title">Nova Music</string>
     <string name="set_color_title">定制颜色</string>
     <string name="set_hue">色调</string>
     <string name="set_sat">饱和度</string>
@@ -1272,7 +1272,7 @@
     <string name="menu_copy_link">复制链接</string>
     <string name="link_copied">链接已复制到剪贴板</string>
     <string name="menu_quick_jam">Jam 一起听</string>
-    <string name="settings_jam_title">LastWave Jam 一起听</string>
+    <string name="settings_jam_title">Nova Music Jam 一起听</string>
     <string name="settings_jam_sub">实时同屏听歌 • 创建房间或输入邀请码加入</string>
     <string name="playlist_rearrange_songs">调整歌曲顺序</string>
     <string name="playlist_rearrange_clear_search">清除搜索后可调整顺序</string>

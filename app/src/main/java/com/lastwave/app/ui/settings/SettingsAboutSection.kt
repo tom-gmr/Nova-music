@@ -637,7 +637,7 @@ internal fun AboutCard(
             )
             Spacer(Modifier.height(16.dp))
             Text(
-                "Original Developer",
+                "Developer",
                 style = MaterialTheme.typography.titleSmall,
                 fontWeight = FontWeight.SemiBold,
             )
@@ -648,7 +648,7 @@ internal fun AboutCard(
             )
             Spacer(Modifier.height(18.dp))
             Text(
-                "Nova Music Developer",
+                "Developer",
                 style = MaterialTheme.typography.titleSmall,
                 fontWeight = FontWeight.SemiBold,
             )
